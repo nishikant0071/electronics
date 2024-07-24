@@ -1,0 +1,153 @@
+
+                                                /* navbar */
+
+nav{
+
+    /* box-shadow: 10px 8px 30px 1px; */
+    /* background-color: whitesmoke; */
+    position: fixed;
+}
+.search-bar {
+    position: absolute;
+    top: -240px;
+    left: 25%;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    /* background-color: none; */
+  }
+  .search-bar.visible {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    height: 100%;
+    width: 50%;
+    
+  }
+  .navbar-blur {
+    filter: blur(5px);
+  }
+  .btn-outline-warning:hover{
+    color: white !important;
+
+  }
+
+                            /* footer */
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+footer ul>li>a{
+    color: gray;
+}
+.text-addres{
+    color: gray;
+}
+.pay-method-grids>li>a{
+    color: white !important;
+}
+.pay-method{
+    font-size: 20px;
+}
+
+  
+
+
+
+@media screen and (min-width:320px) and (max-width:397px){
+    .search-bar{
+        height: 600px !important;
+        /* background-color: blue; */
+    }
+    .carousel-control-prev{
+        margin-top: 500px !important;
+        margin-left: 90px !important;
+        background-color: red !important;
+    }
+    #carouselExample{
+        display: none !important;
+    }
+   
+
+}
+@media screen and (min-width:400px) and (max-width:426px){
+    .search-bar{
+        height: 600px !important;
+        /* background-color: blue; */
+    }
+    #carouselExample{
+        display: none !important;
+    }
+}
+@media screen and (min-width:601px) and (max-width:800px){
+    .search-bar{
+        height: 600px !important;
+        /* background-color: blue; */
+    }
+    #carouselExample{
+        display: none !important;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1025px){
+    .search-bar{
+        height: 600px !important;
+        /* background-color: blue; */
+    }
+    .carousel{
+        /* margin-left: -1200px; */
+        width: 80%;
+        margin-top: 100px;
+    }
+   
+}
+@media screen and (min-width:1300px) and (max-width:1441px){
+    .search-bar{
+        height: 600px !important;
+        /* background-color: blue; */
+    }
+    .carousel{
+        /* margin-left: -1200px; */
+        /* width: 80%; */
+        margin-top: 60px;
+    }
+    .carousel {
+        position: relative !important;
+        left: 30px;
+        
+    }
+    .carousel-control-next{
+        position: relative;
+        left: 67em;
+        top: -25em;
+    }
+}
+@media screen and (min-width:1530px){
+    .search-bar{
+        height: 600px !important;
+        /* background-color: blue; */
+    }
+    .carousel{
+        /* margin-left: -1200px; */
+        /* width: 80%; */
+        margin-top: 60px;
+    }
+    .carousel {
+        position: relative !important;
+        left: 30px;
+        
+    }
+    .carousel-control-next{
+        position: relative;
+        left: 67em;
+        top: -25em;
+    }
+    .courasal-con{  
+        /* margin-left: 100px; */
+        position: relative;
+        left: 4em;
+    }
+}

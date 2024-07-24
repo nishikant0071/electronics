@@ -1,0 +1,19 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const searchIcon = document.getElementById('searchIcon');
+    const searchBar = document.getElementById('searchBar');
+    const searchBarInput = document.getElementById('searchBarInput');
+    const navbar = document.querySelector('.navbar');
+
+    searchIcon.addEventListener('click', function() {
+      searchBar.classList.toggle('visible');
+      navbar.classList.toggle('navbar-blur');
+      if (searchBar.classList.contains('visible')) {
+        searchBarInput.focus();
+      }
+    });
+
+    searchBarInput.addEventListener('blur', function() {
+      searchBar.classList.remove('visible');
+      navbar.classList.remove('navbar-blur');
+    });
+  });
